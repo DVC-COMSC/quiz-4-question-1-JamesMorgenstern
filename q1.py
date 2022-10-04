@@ -2,12 +2,12 @@ countLoop = 0
 countClusters = 0
 check = True
 
-num1 = int(input("Enter a number: "))
+num1 = int(input())
 num2 = num1
 
 while (countLoop < 9):
     
-    num1 = int(input("Enter a number: "))
+    num1 = int(input())
     if (check == True):
         if (num1 % 2 == 0 and num2 % 2 == 0):
             countClusters += 1
@@ -19,7 +19,7 @@ while (countLoop < 9):
 
 print(countClusters)
 # ******************************
-# Make your Code
+# Make your Code 
 # ******************************
 
 
